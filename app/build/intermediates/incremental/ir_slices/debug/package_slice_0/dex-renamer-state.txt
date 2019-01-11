@@ -1,0 +1,4 @@
+#Fri Jan 11 16:04:44 AEDT 2019
+base.0=E\:\\Internship\\Profbot-Robot-Client\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex

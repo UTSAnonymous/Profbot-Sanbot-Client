@@ -1,0 +1,227 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\Internship\Profbot-Sanbot-Client\app\src\main\AndroidManifest.xml:2:1-47:12
+INJECTED from E:\Internship\Profbot-Sanbot-Client\app\src\main\AndroidManifest.xml:2:1-47:12
+INJECTED from E:\Internship\Profbot-Sanbot-Client\app\src\main\AndroidManifest.xml:2:1-47:12
+INJECTED from E:\Internship\Profbot-Sanbot-Client\app\src\main\AndroidManifest.xml:2:1-47:12
+MERGED from [SanbotOpenSDK.aar] C:\Users\Nicholas\.gradle\caches\transforms-1\files-1.1\SanbotOpenSDK.aar\3f580205758e5cded66f64819298dfca\AndroidManifest.xml:2:1-21:12
+MERGED from [com.android.databinding:adapters:3.2.1] C:\Users\Nicholas\.gradle\caches\transforms-1\files-1.1\adapters-3.2.1.aar\5d369257068c75f5f6e39501967110ba\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.databinding:library:3.2.1] C:\Users\Nicholas\.gradle\caches\transforms-1\files-1.1\library-3.2.1.aar\9ae0766aa90f7261c33b9f93e01cc6a8\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Nicholas\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\581f78107d6b049d0d2a0458707a1320\AndroidManifest.xml:2:1-11:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\Users\Nicholas\.gradle\caches\transforms-1\files-1.1\rxandroid-2.0.1.aar\46a104dea99ce7e4c5a87651460f9fb1\AndroidManifest.xml:15:1-21:12
+MERGED from [com.android.support:design:27.1.0] C:\Users\Nicholas\.gradle\caches\transforms-1\files-1.1\design-27.1.0.aar\4b43265d30e97167ef40cfbcefe2f21b\AndroidManifest.xml:17:1-22:12
+MERGED from [pub.devrel:easypermissions:1.1.3] C:\Users\Nicholas\.gradle\caches\transforms-1\files-1.1\easypermissions-1.1.3.aar\9bbea24db2fe60b1cf755169a6ea02d7\AndroidManifest.xml:2:1-19:12
+MERGED from [com.android.support:appcompat-v7:27.1.0] C:\Users\Nicholas\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.0.aar\3c9ec802ab4f9e75c9b15f16c97de55e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:27.1.0] C:\Users\Nicholas\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.0.aar\c18c2bcf67e7795fe1e8c632d85c0d72\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.0] C:\Users\Nicholas\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.0.aar\916420df7761903171031e117ac7fe25\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.0] C:\Users\Nicholas\.gradle\caches\transforms-1\files-1.1\transition-27.1.0.aar\b25bcd64bda7d830cd2eafe52598c669\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.0] C:\Users\Nicholas\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.0.aar\f510a2a395606c7db9e6b319202b9d27\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.0] C:\Users\Nicholas\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.0.aar\6cfc74d73cf2c90cfef93176bf18489e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.0] C:\Users\Nicholas\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.0.aar\a94bd8ccaecc07be95ed9c00212f37c0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.0] C:\Users\Nicholas\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.0.aar\e5bcbfa86b82d754eaee799ad8172241\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.0] C:\Users\Nicholas\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.0.aar\32de3089539312a24a14e15f2a8efc90\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.0] C:\Users\Nicholas\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.0.aar\dddf9cd67611222ca898c024e51f9775\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.0] C:\Users\Nicholas\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.0.aar\0ac780d78ecaf5c1d914fb99dfe4c3b7\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Nicholas\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\f0cba8bacbde50b49ed4f62888a26d70\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Nicholas\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\0d49abc22a3e85a09a9d7974a716c001\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Nicholas\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\d03c13b9f4b4d82819c07d4003fe0aac\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Nicholas\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\81761948f92a8893e32a6b6fb30cfa21\AndroidManifest.xml:17:1-22:12
+INJECTED from E:\Internship\Profbot-Sanbot-Client\app\src\main\AndroidManifest.xml:2:1-47:12
+INJECTED from E:\Internship\Profbot-Sanbot-Client\app\src\main\AndroidManifest.xml:2:1-47:12
+INJECTED from E:\Internship\Profbot-Sanbot-Client\app\src\main\AndroidManifest.xml:2:1-47:12
+	package
+		ADDED from E:\Internship\Profbot-Sanbot-Client\app\src\main\AndroidManifest.xml:4:5-50
+		INJECTED from E:\Internship\Profbot-Sanbot-Client\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Internship\Profbot-Sanbot-Client\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from E:\Internship\Profbot-Sanbot-Client\app\src\main\AndroidManifest.xml
+		ADDED from E:\Internship\Profbot-Sanbot-Client\app\src\main\AndroidManifest.xml:2:1-47:12
+		INJECTED from E:\Internship\Profbot-Sanbot-Client\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from E:\Internship\Profbot-Sanbot-Client\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from E:\Internship\Profbot-Sanbot-Client\app\src\main\AndroidManifest.xml
+		ADDED from E:\Internship\Profbot-Sanbot-Client\app\src\main\AndroidManifest.xml:2:1-47:12
+		INJECTED from E:\Internship\Profbot-Sanbot-Client\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\Internship\Profbot-Sanbot-Client\app\src\main\AndroidManifest.xml:2:11-69
+uses-feature#android.hardware.camera
+ADDED from E:\Internship\Profbot-Sanbot-Client\app\src\main\AndroidManifest.xml:6:5-60
+	android:name
+		ADDED from E:\Internship\Profbot-Sanbot-Client\app\src\main\AndroidManifest.xml:6:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from E:\Internship\Profbot-Sanbot-Client\app\src\main\AndroidManifest.xml:7:5-70
+	android:name
+		ADDED from E:\Internship\Profbot-Sanbot-Client\app\src\main\AndroidManifest.xml:7:19-67
+uses-feature#0x00020000
+ADDED from E:\Internship\Profbot-Sanbot-Client\app\src\main\AndroidManifest.xml:8:5-10:35
+	android:glEsVersion
+		ADDED from E:\Internship\Profbot-Sanbot-Client\app\src\main\AndroidManifest.xml:9:9-41
+	android:required
+		ADDED from E:\Internship\Profbot-Sanbot-Client\app\src\main\AndroidManifest.xml:10:9-32
+uses-permission#android.permission.CAMERA
+ADDED from E:\Internship\Profbot-Sanbot-Client\app\src\main\AndroidManifest.xml:12:5-65
+MERGED from [SanbotOpenSDK.aar] C:\Users\Nicholas\.gradle\caches\transforms-1\files-1.1\SanbotOpenSDK.aar\3f580205758e5cded66f64819298dfca\AndroidManifest.xml:14:5-65
+MERGED from [SanbotOpenSDK.aar] C:\Users\Nicholas\.gradle\caches\transforms-1\files-1.1\SanbotOpenSDK.aar\3f580205758e5cded66f64819298dfca\AndroidManifest.xml:14:5-65
+	android:name
+		ADDED from E:\Internship\Profbot-Sanbot-Client\app\src\main\AndroidManifest.xml:12:22-62
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from E:\Internship\Profbot-Sanbot-Client\app\src\main\AndroidManifest.xml:13:5-79
+	android:name
+		ADDED from E:\Internship\Profbot-Sanbot-Client\app\src\main\AndroidManifest.xml:13:22-76
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from E:\Internship\Profbot-Sanbot-Client\app\src\main\AndroidManifest.xml:14:5-80
+	android:name
+		ADDED from E:\Internship\Profbot-Sanbot-Client\app\src\main\AndroidManifest.xml:14:22-77
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from E:\Internship\Profbot-Sanbot-Client\app\src\main\AndroidManifest.xml:15:5-71
+	android:name
+		ADDED from E:\Internship\Profbot-Sanbot-Client\app\src\main\AndroidManifest.xml:15:22-68
+uses-permission#android.permission.INTERNET
+ADDED from E:\Internship\Profbot-Sanbot-Client\app\src\main\AndroidManifest.xml:16:5-67
+MERGED from [SanbotOpenSDK.aar] C:\Users\Nicholas\.gradle\caches\transforms-1\files-1.1\SanbotOpenSDK.aar\3f580205758e5cded66f64819298dfca\AndroidManifest.xml:15:5-67
+MERGED from [SanbotOpenSDK.aar] C:\Users\Nicholas\.gradle\caches\transforms-1\files-1.1\SanbotOpenSDK.aar\3f580205758e5cded66f64819298dfca\AndroidManifest.xml:15:5-67
+	android:name
+		ADDED from E:\Internship\Profbot-Sanbot-Client\app\src\main\AndroidManifest.xml:16:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from E:\Internship\Profbot-Sanbot-Client\app\src\main\AndroidManifest.xml:17:5-81
+	android:name
+		ADDED from E:\Internship\Profbot-Sanbot-Client\app\src\main\AndroidManifest.xml:17:22-78
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from E:\Internship\Profbot-Sanbot-Client\app\src\main\AndroidManifest.xml:18:5-79
+MERGED from [SanbotOpenSDK.aar] C:\Users\Nicholas\.gradle\caches\transforms-1\files-1.1\SanbotOpenSDK.aar\3f580205758e5cded66f64819298dfca\AndroidManifest.xml:13:5-79
+MERGED from [SanbotOpenSDK.aar] C:\Users\Nicholas\.gradle\caches\transforms-1\files-1.1\SanbotOpenSDK.aar\3f580205758e5cded66f64819298dfca\AndroidManifest.xml:13:5-79
+	android:name
+		ADDED from E:\Internship\Profbot-Sanbot-Client\app\src\main\AndroidManifest.xml:18:22-76
+uses-permission#android.permission.BLUETOOTH
+ADDED from E:\Internship\Profbot-Sanbot-Client\app\src\main\AndroidManifest.xml:19:5-68
+	android:name
+		ADDED from E:\Internship\Profbot-Sanbot-Client\app\src\main\AndroidManifest.xml:19:22-65
+application
+ADDED from E:\Internship\Profbot-Sanbot-Client\app\src\main\AndroidManifest.xml:21:5-45:19
+MERGED from [SanbotOpenSDK.aar] C:\Users\Nicholas\.gradle\caches\transforms-1\files-1.1\SanbotOpenSDK.aar\3f580205758e5cded66f64819298dfca\AndroidManifest.xml:17:5-19:38
+MERGED from [SanbotOpenSDK.aar] C:\Users\Nicholas\.gradle\caches\transforms-1\files-1.1\SanbotOpenSDK.aar\3f580205758e5cded66f64819298dfca\AndroidManifest.xml:17:5-19:38
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Nicholas\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\581f78107d6b049d0d2a0458707a1320\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Nicholas\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\581f78107d6b049d0d2a0458707a1320\AndroidManifest.xml:9:5-20
+MERGED from [pub.devrel:easypermissions:1.1.3] C:\Users\Nicholas\.gradle\caches\transforms-1\files-1.1\easypermissions-1.1.3.aar\9bbea24db2fe60b1cf755169a6ea02d7\AndroidManifest.xml:11:5-17:19
+MERGED from [pub.devrel:easypermissions:1.1.3] C:\Users\Nicholas\.gradle\caches\transforms-1\files-1.1\easypermissions-1.1.3.aar\9bbea24db2fe60b1cf755169a6ea02d7\AndroidManifest.xml:11:5-17:19
+	android:supportsRtl
+		ADDED from E:\Internship\Profbot-Sanbot-Client\app\src\main\AndroidManifest.xml:25:9-35
+	android:label
+		ADDED from E:\Internship\Profbot-Sanbot-Client\app\src\main\AndroidManifest.xml:24:9-41
+	tools:ignore
+		ADDED from E:\Internship\Profbot-Sanbot-Client\app\src\main\AndroidManifest.xml:27:9-48
+	android:icon
+		ADDED from E:\Internship\Profbot-Sanbot-Client\app\src\main\AndroidManifest.xml:23:9-43
+	android:allowBackup
+		ADDED from E:\Internship\Profbot-Sanbot-Client\app\src\main\AndroidManifest.xml:22:9-35
+	android:theme
+		ADDED from E:\Internship\Profbot-Sanbot-Client\app\src\main\AndroidManifest.xml:26:9-40
+activity#com.utsanonymous.profbotrobotclient.LoginActivity
+ADDED from E:\Internship\Profbot-Sanbot-Client\app\src\main\AndroidManifest.xml:28:9-37:20
+	android:screenOrientation
+		ADDED from E:\Internship\Profbot-Sanbot-Client\app\src\main\AndroidManifest.xml:31:13-49
+	android:configChanges
+		ADDED from E:\Internship\Profbot-Sanbot-Client\app\src\main\AndroidManifest.xml:30:13-63
+	android:name
+		ADDED from E:\Internship\Profbot-Sanbot-Client\app\src\main\AndroidManifest.xml:29:13-77
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from E:\Internship\Profbot-Sanbot-Client\app\src\main\AndroidManifest.xml:32:13-36:29
+action#android.intent.action.MAIN
+ADDED from E:\Internship\Profbot-Sanbot-Client\app\src\main\AndroidManifest.xml:33:17-69
+	android:name
+		ADDED from E:\Internship\Profbot-Sanbot-Client\app\src\main\AndroidManifest.xml:33:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\Internship\Profbot-Sanbot-Client\app\src\main\AndroidManifest.xml:35:17-77
+	android:name
+		ADDED from E:\Internship\Profbot-Sanbot-Client\app\src\main\AndroidManifest.xml:35:27-74
+activity#com.utsanonymous.profbotrobotclient.call.CallActivity
+ADDED from E:\Internship\Profbot-Sanbot-Client\app\src\main\AndroidManifest.xml:38:9-44:39
+	android:screenOrientation
+		ADDED from E:\Internship\Profbot-Sanbot-Client\app\src\main\AndroidManifest.xml:42:13-50
+	android:label
+		ADDED from E:\Internship\Profbot-Sanbot-Client\app\src\main\AndroidManifest.xml:40:13-45
+	android:configChanges
+		ADDED from E:\Internship\Profbot-Sanbot-Client\app\src\main\AndroidManifest.xml:41:13-48
+	android:largeHeap
+		ADDED from E:\Internship\Profbot-Sanbot-Client\app\src\main\AndroidManifest.xml:44:13-37
+	android:theme
+		ADDED from E:\Internship\Profbot-Sanbot-Client\app\src\main\AndroidManifest.xml:43:13-49
+	android:name
+		ADDED from E:\Internship\Profbot-Sanbot-Client\app\src\main\AndroidManifest.xml:39:13-46
+uses-sdk
+INJECTED from E:\Internship\Profbot-Sanbot-Client\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\Internship\Profbot-Sanbot-Client\app\src\main\AndroidManifest.xml
+INJECTED from E:\Internship\Profbot-Sanbot-Client\app\src\main\AndroidManifest.xml
+MERGED from [SanbotOpenSDK.aar] C:\Users\Nicholas\.gradle\caches\transforms-1\files-1.1\SanbotOpenSDK.aar\3f580205758e5cded66f64819298dfca\AndroidManifest.xml:7:5-9:41
+MERGED from [SanbotOpenSDK.aar] C:\Users\Nicholas\.gradle\caches\transforms-1\files-1.1\SanbotOpenSDK.aar\3f580205758e5cded66f64819298dfca\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.databinding:adapters:3.2.1] C:\Users\Nicholas\.gradle\caches\transforms-1\files-1.1\adapters-3.2.1.aar\5d369257068c75f5f6e39501967110ba\AndroidManifest.xml:22:5-44
+MERGED from [com.android.databinding:adapters:3.2.1] C:\Users\Nicholas\.gradle\caches\transforms-1\files-1.1\adapters-3.2.1.aar\5d369257068c75f5f6e39501967110ba\AndroidManifest.xml:22:5-44
+MERGED from [com.android.databinding:library:3.2.1] C:\Users\Nicholas\.gradle\caches\transforms-1\files-1.1\library-3.2.1.aar\9ae0766aa90f7261c33b9f93e01cc6a8\AndroidManifest.xml:22:5-44
+MERGED from [com.android.databinding:library:3.2.1] C:\Users\Nicholas\.gradle\caches\transforms-1\files-1.1\library-3.2.1.aar\9ae0766aa90f7261c33b9f93e01cc6a8\AndroidManifest.xml:22:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Nicholas\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\581f78107d6b049d0d2a0458707a1320\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Nicholas\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\581f78107d6b049d0d2a0458707a1320\AndroidManifest.xml:5:5-7:41
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\Users\Nicholas\.gradle\caches\transforms-1\files-1.1\rxandroid-2.0.1.aar\46a104dea99ce7e4c5a87651460f9fb1\AndroidManifest.xml:19:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\Users\Nicholas\.gradle\caches\transforms-1\files-1.1\rxandroid-2.0.1.aar\46a104dea99ce7e4c5a87651460f9fb1\AndroidManifest.xml:19:5-43
+MERGED from [com.android.support:design:27.1.0] C:\Users\Nicholas\.gradle\caches\transforms-1\files-1.1\design-27.1.0.aar\4b43265d30e97167ef40cfbcefe2f21b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.0] C:\Users\Nicholas\.gradle\caches\transforms-1\files-1.1\design-27.1.0.aar\4b43265d30e97167ef40cfbcefe2f21b\AndroidManifest.xml:20:5-44
+MERGED from [pub.devrel:easypermissions:1.1.3] C:\Users\Nicholas\.gradle\caches\transforms-1\files-1.1\easypermissions-1.1.3.aar\9bbea24db2fe60b1cf755169a6ea02d7\AndroidManifest.xml:7:5-9:41
+MERGED from [pub.devrel:easypermissions:1.1.3] C:\Users\Nicholas\.gradle\caches\transforms-1\files-1.1\easypermissions-1.1.3.aar\9bbea24db2fe60b1cf755169a6ea02d7\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:27.1.0] C:\Users\Nicholas\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.0.aar\3c9ec802ab4f9e75c9b15f16c97de55e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.0] C:\Users\Nicholas\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.0.aar\3c9ec802ab4f9e75c9b15f16c97de55e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.0] C:\Users\Nicholas\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.0.aar\c18c2bcf67e7795fe1e8c632d85c0d72\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.0] C:\Users\Nicholas\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.0.aar\c18c2bcf67e7795fe1e8c632d85c0d72\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.0] C:\Users\Nicholas\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.0.aar\916420df7761903171031e117ac7fe25\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.0] C:\Users\Nicholas\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.0.aar\916420df7761903171031e117ac7fe25\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.0] C:\Users\Nicholas\.gradle\caches\transforms-1\files-1.1\transition-27.1.0.aar\b25bcd64bda7d830cd2eafe52598c669\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.0] C:\Users\Nicholas\.gradle\caches\transforms-1\files-1.1\transition-27.1.0.aar\b25bcd64bda7d830cd2eafe52598c669\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.0] C:\Users\Nicholas\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.0.aar\f510a2a395606c7db9e6b319202b9d27\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.0] C:\Users\Nicholas\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.0.aar\f510a2a395606c7db9e6b319202b9d27\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.0] C:\Users\Nicholas\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.0.aar\6cfc74d73cf2c90cfef93176bf18489e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.0] C:\Users\Nicholas\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.0.aar\6cfc74d73cf2c90cfef93176bf18489e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.0] C:\Users\Nicholas\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.0.aar\a94bd8ccaecc07be95ed9c00212f37c0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.0] C:\Users\Nicholas\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.0.aar\a94bd8ccaecc07be95ed9c00212f37c0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.0] C:\Users\Nicholas\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.0.aar\e5bcbfa86b82d754eaee799ad8172241\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.0] C:\Users\Nicholas\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.0.aar\e5bcbfa86b82d754eaee799ad8172241\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.0] C:\Users\Nicholas\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.0.aar\32de3089539312a24a14e15f2a8efc90\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.0] C:\Users\Nicholas\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.0.aar\32de3089539312a24a14e15f2a8efc90\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.0] C:\Users\Nicholas\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.0.aar\dddf9cd67611222ca898c024e51f9775\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.0] C:\Users\Nicholas\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.0.aar\dddf9cd67611222ca898c024e51f9775\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.0] C:\Users\Nicholas\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.0.aar\0ac780d78ecaf5c1d914fb99dfe4c3b7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.0] C:\Users\Nicholas\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.0.aar\0ac780d78ecaf5c1d914fb99dfe4c3b7\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Nicholas\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\f0cba8bacbde50b49ed4f62888a26d70\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Nicholas\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\f0cba8bacbde50b49ed4f62888a26d70\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Nicholas\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\0d49abc22a3e85a09a9d7974a716c001\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Nicholas\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\0d49abc22a3e85a09a9d7974a716c001\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Nicholas\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\d03c13b9f4b4d82819c07d4003fe0aac\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Nicholas\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\d03c13b9f4b4d82819c07d4003fe0aac\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Nicholas\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\81761948f92a8893e32a6b6fb30cfa21\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Nicholas\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\81761948f92a8893e32a6b6fb30cfa21\AndroidManifest.xml:20:5-44
+INJECTED from E:\Internship\Profbot-Sanbot-Client\app\src\main\AndroidManifest.xml
+INJECTED from E:\Internship\Profbot-Sanbot-Client\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from E:\Internship\Profbot-Sanbot-Client\app\src\main\AndroidManifest.xml
+		ADDED from E:\Internship\Profbot-Sanbot-Client\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Internship\Profbot-Sanbot-Client\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\Internship\Profbot-Sanbot-Client\app\src\main\AndroidManifest.xml
+		ADDED from E:\Internship\Profbot-Sanbot-Client\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Internship\Profbot-Sanbot-Client\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [SanbotOpenSDK.aar] C:\Users\Nicholas\.gradle\caches\transforms-1\files-1.1\SanbotOpenSDK.aar\3f580205758e5cded66f64819298dfca\AndroidManifest.xml:11:5-76
+	android:name
+		ADDED from [SanbotOpenSDK.aar] C:\Users\Nicholas\.gradle\caches\transforms-1\files-1.1\SanbotOpenSDK.aar\3f580205758e5cded66f64819298dfca\AndroidManifest.xml:11:22-73
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from [SanbotOpenSDK.aar] C:\Users\Nicholas\.gradle\caches\transforms-1\files-1.1\SanbotOpenSDK.aar\3f580205758e5cded66f64819298dfca\AndroidManifest.xml:12:5-76
+	android:name
+		ADDED from [SanbotOpenSDK.aar] C:\Users\Nicholas\.gradle\caches\transforms-1\files-1.1\SanbotOpenSDK.aar\3f580205758e5cded66f64819298dfca\AndroidManifest.xml:12:22-73
+activity#pub.devrel.easypermissions.AppSettingsDialogHolderActivity
+ADDED from [pub.devrel:easypermissions:1.1.3] C:\Users\Nicholas\.gradle\caches\transforms-1\files-1.1\easypermissions-1.1.3.aar\9bbea24db2fe60b1cf755169a6ea02d7\AndroidManifest.xml:12:9-16:66
+	android:label
+		ADDED from [pub.devrel:easypermissions:1.1.3] C:\Users\Nicholas\.gradle\caches\transforms-1\files-1.1\easypermissions-1.1.3.aar\9bbea24db2fe60b1cf755169a6ea02d7\AndroidManifest.xml:15:13-29
+	android:exported
+		ADDED from [pub.devrel:easypermissions:1.1.3] C:\Users\Nicholas\.gradle\caches\transforms-1\files-1.1\easypermissions-1.1.3.aar\9bbea24db2fe60b1cf755169a6ea02d7\AndroidManifest.xml:14:13-37
+	android:theme
+		ADDED from [pub.devrel:easypermissions:1.1.3] C:\Users\Nicholas\.gradle\caches\transforms-1\files-1.1\easypermissions-1.1.3.aar\9bbea24db2fe60b1cf755169a6ea02d7\AndroidManifest.xml:16:13-63
+	android:name
+		ADDED from [pub.devrel:easypermissions:1.1.3] C:\Users\Nicholas\.gradle\caches\transforms-1\files-1.1\easypermissions-1.1.3.aar\9bbea24db2fe60b1cf755169a6ea02d7\AndroidManifest.xml:13:13-86

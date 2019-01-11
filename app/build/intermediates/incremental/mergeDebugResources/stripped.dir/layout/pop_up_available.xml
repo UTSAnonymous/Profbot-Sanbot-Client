@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/pop_up_available"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pop_window_background">
+
+    <TextView
+        android:id="@+id/bot_model_name"
+        android:layout_width="274dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="57dp"
+        android:gravity="center"
+        android:text="Sanbot Elf"
+        android:textAlignment="center"
+        android:textColor="#cdf0f7"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/bot_pop_up_details"
+        android:layout_width="277dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bot_model_name"
+        android:gravity="center"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="56dp"
+        android:text="is available in room BLD11.10.403"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#cdf0f7"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="197dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bot_pop_up_details"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:background="#144d99"
+        android:onClick="connectToRobot"
+        android:text="Connect to robot"
+        android:textColor="#ffffff" />
+</RelativeLayout>
