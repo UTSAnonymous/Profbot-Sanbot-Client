@@ -36,6 +36,7 @@ import com.pubnub.api.models.consumer.pubsub.PNPresenceEventResult;
 import com.sanbot.opensdk.base.TopBaseActivity;
 import com.sanbot.opensdk.beans.FuncConstant;
 import com.sanbot.opensdk.function.beans.wheelmotion.NoAngleWheelMotion;
+import com.sanbot.opensdk.function.unit.HardWareManager;
 import com.sanbot.opensdk.function.unit.WheelMotionManager;
 import com.utsanonymous.profbotrobotclient.PubNubMain;
 import com.utsanonymous.profbotrobotclient.R;
@@ -122,18 +123,24 @@ public class CallActivity extends TopBaseActivity
 
     //for SanbotOpenSDK
     private WheelMotionManager wheelMotionManager;
+    private HardWareManager hardWareManager;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
+        register(CallActivity.class);
         getWindow().addFlags(LayoutParams.FLAG_DISMISS_KEYGUARD | LayoutParams.FLAG_SHOW_WHEN_LOCKED
                 | LayoutParams.FLAG_TURN_SCREEN_ON);
         getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_HIDE_NAVIGATION
                 | View.SYSTEM_UI_FLAG_FULLSCREEN | View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON, WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
+        super.onCreate(savedInstanceState);
         binding = DataBindingUtil.setContentView(this, R.layout.activity_call);
 
         remoteRenderers.add(binding.remoteVideoView);
+
+        // Initialize SanbotOpenSDK classes
+        wheelMotionManager = (WheelMotionManager) getUnitManager(FuncConstant.WHEELMOTION_MANAGER);
+        hardWareManager = (HardWareManager)getUnitManager(FuncConstant.HARDWARE_MANAGER);
 
         // Create video renderers.
         rootEglBase = EglBase.create();
@@ -164,7 +171,8 @@ public class CallActivity extends TopBaseActivity
 
         pubnubInit(roomId);
 
-        wheelMotionManager = (WheelMotionManager) getUnitManager(FuncConstant.WHEELMOTION_MANAGER);
+        // turn off blackline filter
+        hardWareManager.switchBlackLineFilter(true);
 
         // If capturing format is not specified for screencapture, use screen resolution.
         peerConnectionParameters = PeerConnectionParameters.createDefault();
@@ -235,7 +243,10 @@ public class CallActivity extends TopBaseActivity
                     }
                 }
 
-                Log.i("received message", String.valueOf(msg));
+                String cmd = msg.getAsString();
+
+                Log.i("received message", cmd);
+                wheelCommands(cmd);
             }
 
             @Override
@@ -286,26 +297,34 @@ public class CallActivity extends TopBaseActivity
 
         switch(movement) {
             case "forward":
-                NoAngleWheelMotion noAngleWheelMotionForward = new NoAngleWheelMotion(NoAngleWheelMotion.ACTION_FORWARD_RUN, 5,0);
-                wheelMotionManager.doNoAngleMotion(noAngleWheelMotionForward);
+                NoAngleWheelMotion noAngleWheelMotion1 = new NoAngleWheelMotion(
+                        NoAngleWheelMotion.ACTION_FORWARD_RUN, 8,40
+                );
+                wheelMotionManager.doNoAngleMotion(noAngleWheelMotion1);
                 break;
             case "right":
-                NoAngleWheelMotion noAngleWheelMotionRight = new NoAngleWheelMotion(NoAngleWheelMotion.ACTION_TURN_RIGHT, 5,0);
-                wheelMotionManager.doNoAngleMotion(noAngleWheelMotionRight);
+                NoAngleWheelMotion noAngleWheelMotion2 = new NoAngleWheelMotion(
+                        NoAngleWheelMotion.ACTION_RIGHT_CIRCLE, 8,40
+                );
+                wheelMotionManager.doNoAngleMotion(noAngleWheelMotion2);
                 break;
             case "left":
-                NoAngleWheelMotion noAngleWheelMotionLeft = new NoAngleWheelMotion(NoAngleWheelMotion.ACTION_TURN_LEFT, 5,0);
-                wheelMotionManager.doNoAngleMotion(noAngleWheelMotionLeft);
+                NoAngleWheelMotion noAngleWheelMotion3 = new NoAngleWheelMotion(
+                        NoAngleWheelMotion.ACTION_LEFT_CIRCLE, 8,20
+                );
+                wheelMotionManager.doNoAngleMotion(noAngleWheelMotion3);
                 break;
             case "backwards":
-                NoAngleWheelMotion noAngleWheelMotionBackwards = new NoAngleWheelMotion(NoAngleWheelMotion.ACTION_TURN_RIGHT, 5,0);
-                wheelMotionManager.doNoAngleMotion(noAngleWheelMotionBackwards);
+                NoAngleWheelMotion noAngleWheelMotion4 = new NoAngleWheelMotion(
+                        NoAngleWheelMotion.ACTION_BACK_RUN, 8,40
+                );
+                wheelMotionManager.doNoAngleMotion(noAngleWheelMotion4);
                 break;
             case "stop":
-                NoAngleWheelMotion noAngleWheelMotionStopRun = new NoAngleWheelMotion(NoAngleWheelMotion.ACTION_STOP_RUN, 5,0);
-                NoAngleWheelMotion noAngleWheelMotionStopTurn = new NoAngleWheelMotion(NoAngleWheelMotion.ACTION_STOP_TURN, 5,0);
-                wheelMotionManager.doNoAngleMotion(noAngleWheelMotionStopRun);
-                wheelMotionManager.doNoAngleMotion(noAngleWheelMotionStopTurn);
+                NoAngleWheelMotion noAngleWheelMotion5 = new NoAngleWheelMotion(
+                        NoAngleWheelMotion.ACTION_STOP_RUN, 8,20
+                );
+                wheelMotionManager.doNoAngleMotion(noAngleWheelMotion5);
                 break;
         }
 
@@ -783,7 +802,7 @@ public class CallActivity extends TopBaseActivity
 
     @Override
     protected void onMainServiceConnected() {
-
+        Toast.makeText(getApplicationContext(), "Ready to control", Toast.LENGTH_SHORT).show();
     }
 
    }

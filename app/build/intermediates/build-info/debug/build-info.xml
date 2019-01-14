@@ -2,87 +2,103 @@
 <instant-run
     abi="armeabi-v7a,armeabi"
     api-level="23"
-    build-mode="COLD"
+    build-mode="FULL"
     density="260dpi"
     format="10"
-    ir-eligibility="FIELD_ADDED"
     plugin-version="3.2.1"
-    timestamp="1547183633709"
-    token="5901653830410381755"
-    verifier="COLD_SWAP_REQUESTED" >
+    timestamp="1547438312458"
+    token="-2708716718351375099"
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="3446" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="30" />
+        duration="0" />
     <task
         name="verifier"
-        duration="11" />
+        duration="0" />
 
     <artifact
-        location="E:\Internship\Profbot-Robot-Client\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+        location="E:\Internship\Profbot-Sanbot-Client\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
         type="SPLIT" />
     <artifact
-        location="E:\Internship\Profbot-Robot-Client\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
+        location="E:\Internship\Profbot-Sanbot-Client\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+        type="SPLIT" />
+    <artifact
+        location="E:\Internship\Profbot-Sanbot-Client\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+        type="SPLIT" />
+    <artifact
+        location="E:\Internship\Profbot-Sanbot-Client\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+        type="SPLIT" />
+    <artifact
+        location="E:\Internship\Profbot-Sanbot-Client\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+        type="SPLIT" />
+    <artifact
+        location="E:\Internship\Profbot-Sanbot-Client\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+        type="SPLIT" />
+    <artifact
+        location="E:\Internship\Profbot-Sanbot-Client\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+        type="SPLIT" />
+    <artifact
+        location="E:\Internship\Profbot-Sanbot-Client\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+        type="SPLIT" />
+    <artifact
+        location="E:\Internship\Profbot-Sanbot-Client\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+        type="SPLIT" />
+    <artifact
+        location="E:\Internship\Profbot-Sanbot-Client\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+        type="SPLIT" />
+    <artifact
+        location="E:\Internship\Profbot-Sanbot-Client\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+        type="SPLIT" />
+    <artifact
+        location="E:\Internship\Profbot-Sanbot-Client\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
         type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        ir-eligibility="COMPATIBLE"
-        timestamp="1547183059586"
-        verifier="COLD_SWAP_REQUESTED" >
+        timestamp="1547438312458"
+        verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="E:\Internship\Profbot-Robot-Client\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+            location="E:\Internship\Profbot-Sanbot-Client\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
             type="SPLIT" />
         <artifact
-            location="E:\Internship\Profbot-Robot-Client\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            location="E:\Internship\Profbot-Sanbot-Client\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
             type="SPLIT" />
         <artifact
-            location="E:\Internship\Profbot-Robot-Client\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            location="E:\Internship\Profbot-Sanbot-Client\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
         <artifact
-            location="E:\Internship\Profbot-Robot-Client\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            location="E:\Internship\Profbot-Sanbot-Client\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
             type="SPLIT" />
         <artifact
-            location="E:\Internship\Profbot-Robot-Client\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            location="E:\Internship\Profbot-Sanbot-Client\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
             type="SPLIT" />
         <artifact
-            location="E:\Internship\Profbot-Robot-Client\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            location="E:\Internship\Profbot-Sanbot-Client\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
             type="SPLIT" />
         <artifact
-            location="E:\Internship\Profbot-Robot-Client\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            location="E:\Internship\Profbot-Sanbot-Client\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
             type="SPLIT" />
         <artifact
-            location="E:\Internship\Profbot-Robot-Client\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            location="E:\Internship\Profbot-Sanbot-Client\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
             type="SPLIT" />
         <artifact
-            location="E:\Internship\Profbot-Robot-Client\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            location="E:\Internship\Profbot-Sanbot-Client\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
             type="SPLIT" />
         <artifact
-            location="E:\Internship\Profbot-Robot-Client\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            location="E:\Internship\Profbot-Sanbot-Client\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
             type="SPLIT" />
         <artifact
-            location="E:\Internship\Profbot-Robot-Client\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            location="E:\Internship\Profbot-Sanbot-Client\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
             type="SPLIT" />
         <artifact
-            location="E:\Internship\Profbot-Robot-Client\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
-            type="SPLIT_MAIN" />
-    </build>
-    <build
-        build-mode="COLD"
-        ir-eligibility="FIELD_ADDED"
-        timestamp="1547183633709"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="E:\Internship\Profbot-Robot-Client\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-            type="SPLIT" />
-        <artifact
-            location="E:\Internship\Profbot-Robot-Client\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
+            location="E:\Internship\Profbot-Sanbot-Client\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
             type="SPLIT_MAIN" />
     </build>
 
